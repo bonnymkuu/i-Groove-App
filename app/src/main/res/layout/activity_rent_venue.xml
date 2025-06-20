@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#d06f8bfa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/events_icon"
+        android:contentDescription="@string/one"/>
+    <EditText
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:hint="Enter your venue name"
+        android:inputType="text"
+        android:layout_marginHorizontal="20sp"
+        android:autofillHints=""/>
+    <EditText
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/priceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:hint="Enter your price"
+        android:inputType="number"
+        android:layout_marginHorizontal="20sp"
+        android:autofillHints=""/>
+    <EditText
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/locationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:hint="Enter your location"
+        android:inputType="text"
+        android:layout_marginHorizontal="20sp"
+        android:autofillHints=""/>
+    <Button
+        android:textColor="#fff"
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="30sp"
+        android:text="Submit"
+        android:drawableEnd="@drawable/baseline_arrow_circle_right_24"
+        android:backgroundTint="#ff9800"
+        android:layout_marginHorizontal="30sp"/>
+</LinearLayout>

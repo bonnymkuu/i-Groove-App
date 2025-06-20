@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="audio_genres">
+        <item>Pop</item>
+        <item>Hip Hop</item>
+        <item>Rock</item>
+        <item>Jazz</item>
+        <item>Gospel</item>
+        <item>Classical</item>
+        <item>Afrobeats</item>
+        <item>Reggae</item>
+        <item>Country</item>
+        <item>Metal</item>
+        <item>Folk</item>
+        <item>Others</item>
+    </array>
+</resources>

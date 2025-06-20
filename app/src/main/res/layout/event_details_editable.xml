@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/eventTitleEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Title"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/eventDateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"/>
+    <TextView
+        android:id="@+id/eventDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    <EditText
+        android:id="@+id/eventLocationEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Location"
+        android:inputType="text"
+        android:autofillHints=""/>
+    <EditText
+        android:id="@+id/eventContactEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Contact"
+        android:inputType="text"
+        android:autofillHints=""/>
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:id="@+id/updateButton"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Update Event Details"
+        android:backgroundTint="#02549c"
+        android:paddingHorizontal="50sp"/>
+</LinearLayout>

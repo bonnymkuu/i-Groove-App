@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Edit Price"
+        android:inputType="number"
+        android:autofillHints=""/>
+    <EditText
+        android:id="@+id/editTransport"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Edit Transport Price"
+        android:inputType="number"
+        android:layout_marginVertical="20dp"
+        android:autofillHints=""/>
+    <EditText
+        android:id="@+id/editDeposit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Edit Deposit Percentage"
+        android:inputType="number"
+        android:autofillHints=""/>
+</LinearLayout>

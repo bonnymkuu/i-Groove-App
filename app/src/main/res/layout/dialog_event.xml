@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/eventTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Event Title"
+        android:inputType="text"
+        android:autofillHints=""/>
+    <EditText
+        android:id="@+id/eventLocationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Event Location"
+        android:inputType="text"
+        android:autofillHints=""/>
+    <EditText
+        android:id="@+id/eventContactEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Contact Details"
+        android:inputType="phone"
+        android:autofillHints=""/>
+    <Button
+        android:id="@+id/eventDateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"/>
+    <TextView
+        android:id="@+id/eventDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No date selected"/>
+    <ImageView
+        android:id="@+id/eventImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/baseline_camera_24"
+        android:contentDescription="@string/one"/>
+    <Button
+        android:id="@+id/uploadEventButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Event"/>
+</LinearLayout>

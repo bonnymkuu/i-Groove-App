@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="16sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:background="#54ffffff"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:src="@drawable/baseline_audio"/>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/audioTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:text="@string/hello_blank_fragment"
+        android:maxLines="1"
+        android:layout_marginHorizontal="15sp"/>
+</LinearLayout>

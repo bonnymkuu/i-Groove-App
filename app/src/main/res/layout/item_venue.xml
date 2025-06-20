@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:cardBackgroundColor="#00aaff"
+        app:cardCornerRadius="40sp">
+        <ImageView
+            android:id="@+id/venueIv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_camera_24"
+            android:contentDescription="@string/one"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/venue"
+        android:background="@color/white"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55sp"
+        android:text="@string/location"
+        android:layout_marginStart="40sp"
+        android:paddingHorizontal="50sp"/>
+    <TextView
+        android:textSize="17sp"
+        android:textColor="#ff006f"
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="20 km away"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
