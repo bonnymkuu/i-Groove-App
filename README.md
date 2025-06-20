@@ -2,7 +2,7 @@
 iGroove is a modern Android application for discovering, playing, and managing music — both online and offline. It empowers users and artists through a complete music ecosystem.
 
 ## 🎧 Features
-# 🔊 Play Local & Online Music
+### 🔊 Play Local & Online Music
 Enjoy your saved tracks or stream songs from online sources.
 
 ### 💵 Buy & Sell Music
